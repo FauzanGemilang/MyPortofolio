@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width, initial-scale=1.0">
+        <title>My Portopolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./logos.PNG" width="45" height="45" alt="">
+                Fauzan Alang
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Beranda</a></li>
+                <li><a href="#about">Tentang Saya</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <section id="home" class="hero active" style="height: 100vh;">
+            <div style="position: relative; display: flex; flex-direction: column; gap: 20px; justify-content: space-between; width: 100%; height: 100%;">
+                <div style="display: flex; align-items: start; gap: 20px;">
+                    <div style="display: flex; flex-direction: column; gap: 1px; text-align: left; flex-basis: 1/2;">
+                        <h1 style="font-size: 54px; font-weight: 700;">Muhammad Fauzan <br>Gemilang</h1>
+                        <div class="divider"></div>
+                        <h3>Mahasiswa <span class="highlight">Universitas Siliwangi</span> <br>| AI, BlockChain & Cybersecurity Enthusiast</h3>
+                    </div>
+                </div>
+                <div style="display: flex; align-items: baseline; gap: 20px; flex-direction: column;">
+                    <a href="#contact" class="btn">Hubungi Saya</a>
+                </div>
+                <div style="position: absolute; right: 0px; top: 30px; border-radius: 30px; overflow: hidden;">
+                
+                    <img src="./AlangJ.jpeg" width="500" height="500" style="width: 300px; height: auto; aspect-ratio: 4/6; object-fit: cover; object-position: center;" alt="">
+                     
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container">
+                <h2 class="section-title">Tentang Saya</h2>
+                <div class="about-container">
+                
+                    <div class="about-image">
+                        <img src="AlangJ.jpeg" alt="Foto Profil Fauzan Alang">
+                    </div>
+                    <div class="about-content">
+                        <p>
+                            Saya Muhammad Fauzan Gemilang seorang mahasiswa Informatika angkatan 2024 Universitas Siliwangi yang memiliki ketertarikan mendalam pada dunia teknologi, 
+                            khususnya <strong>Artificial Intelligence</strong>, <strong>Cybersecurity</strong>, dan <strong>BlockChain</strong>. 
+                            Saya senang memecahkan masalah kompleks dan membangun solusi digital yang bermanfaat.
+                        </p>
+                        <p>
+                            Selain coding, saya juga aktif berorganisasi, juga aktif dalam kesenian terutama dalam sebuah pementasan teater, dan memiliki hobi bermain game strategi.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <h2 class="section-title">Skills & Experience</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="card-image-wrapper">
+                            <img src="./Web-Development.jpg" alt="Web Development">
+                        </div>
+                        <div class="card-content">
+                           <h3>Web Depelopment</h3>
+                        <p class="skill-desc">Membangun website responsif dengan HTML, CSS, dan JavaScript.</p>
+                        <ul class="skill-list">
+                            <li><i class="fab fa-html5"></i> HTML & CSS</li>
+                            <li><i class="fab fa-js"></i> JavaScript</li>
+                            <li><i class="fab fa-wordpress"></i> WordPress</li>
+                        </ul>
+                        <a href="https://github.com/username-kamu" target="_blank" class="card-btn">
+                            <i class="fab fa-github"></i> Lihat GitHub Saya
+                        </a>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="card-image-wrapper">
+                            <img src="./bg2.jpeg" alt="Interest">
+                        </div>
+                        <div class="card-content">
+                            <h3>Tech Interest</h3>
+                            <p class="skill-desc">Mendalami teknologi masa depan dan keamanan digital serta kecerdasan buatan.</p>
+                            <ul class="skill-list">
+                                <li><i class="fas fa-shield-alt"></i> Network Security</li>
+                                <li><i class="fas fa-brain"></i> Artificial Intelligence</li>
+                                <li><i class="fas fa-link"></i> Blockchain Analyst</li>
+                            </ul>
+                            <span class="card-btn secondary">Interest Focus</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="card-image-wrapper">
+                            <img src="./google.jpeg" alt="Experience">
+                        </div>
+                        <div class="card-content">
+                            <h3>Experience</h3>
+                            <p class="skill-desc">Pengalaman aktif dalam program teknologi dan komunitas.</p>
+                        
+                            <ul class="skill-list">
+                                <li>
+                                    <i class="fab fa-google"></i> Google Student Ambassador
+                                </li>
+                                
+                                <li>
+                                    <i class="fas fa-cube"></i> Web3 Jobs & Solana Opps
+                                </li>
+                                
+                                <li>
+                                    <i class="fas fa-robot"></i> Bootcamp Collab Fest (AI)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="card-image-wrapper">
+                            <img src="./teater.jpeg" alt="Organisasi">
+                        </div>
+                        <div class="card-content">
+                            <h3>Organization</h3>
+                            <p class="skill-desc">Pengalaman kepemimpinan dan kerjasama tim.</p>
+                            <ul class="skill-list">
+                                <li><i class="fab fa-google"></i> Google Student Ambassador</li>
+                                <li><i class="fas fa-theater-masks"></i> Teater 28</li>
+                                <li><i class="fas fa-users"></i> HMIF UNSIL</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="container">
+                <h2 class="section-title">My Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <div class="card-image-wrapper">
+                            <img src="./macrofuel.png" alt="MacroLogic">
+                        </div>
+                        <div class="card-content">
+
+                            <h3>MacroLogic</h3>
+                            <p>Website kalkulator makro dan makanan sehat untuk penggiat gym.</p>
+                            <span class="tag">Web Design</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-image-wrapper">
+                            <img src="./mealjune.png" alt="Mealjune">
+                        </div>
+                        <div class="card-content">
+                            <h3>Mealjune</h3>
+                            <p>Platform promosi produk makanan ringan UMKM yang terintegrasi marketplace.</p>
+                            <span class="tag">Marketing</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-image-wrapper">
+                            <img src="" alt="UKM Management">
+                        </div>
+                        <div class="card-content">
+                            <h3>UKM Management</h3>
+                            <p>Sistem informasi pendaftaran unit kegiatan mahasiswa.</p>
+                            <span class="tag">System</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-image-wrapper">
+                            <img src="./amanOS.jpeg" alt="Operation Sistem">
+                        </div>
+                        <div class="card-content">
+                            <h3>Operation Sistem</h3>
+                            <p>Custom Operation Sistem ubuntu menjadi AmanOs</p>
+                            <span class="tag">System</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title">Kontak saya</h2>
+                <p style="text-align: center; margin-bottom: 40px; color: #0c0c0c;">
+                    Punya pertanyaan atau ingin berkolaborasi? Pilih cara termudah untuk menghubungi saya.
+                </p>
+                <div class="contact-grid">
+                    
+                    <a href="https://wa.me/6285520787634" target="_blank" class="contact-card">
+                        <div class="icon-box wa">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <h3>WhatsApp</h3>
+                        <p>Chat langsung untuk respon cepat.</p>
+                        <span class="contact-btn">Chat Sekarang <i class="fas fa-arrow-right"></i></span>
+                    </a>
+
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=247006111154@student.unsil.ac.id" target="_blank" class="contact-card">
+                        <div class="icon-box email">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <p>Kirim tawaran kerjasama atau proyek.</p>
+                        <span class="contact-btn">Kirim Email <i class="fas fa-arrow-right"></i></span>
+                    </a>
+
+                    <a href="https://instagram.com/whozaan_" target="_blank" class="contact-card">
+                        <div class="icon-box ig">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <h3>Instagram</h3>
+                        <p>Ikuti keseharian dan update terbaru saya.</p>
+                        <span class="contact-btn">Follow Saya <i class="fas fa-arrow-right"></i></span>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>&copy; 2026 Muhammad Fauzan Gemilang. My Portopolio.</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
